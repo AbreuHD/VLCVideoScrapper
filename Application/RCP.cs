@@ -58,7 +58,11 @@ namespace App
                         LargeImageKey = img,
                         LargeImageText = img,
                         SmallImageKey = img,
-                    }
+                    },
+                    Buttons = new Button[]
+                    {
+                        new Button(){ Label = "Download", Url = "https://github.com/AbreuHD/VLCVideoScrapper"}
+                    },
                 });
             }
         }
@@ -83,7 +87,7 @@ namespace App
                     },
                     Buttons = new Button[]
                     {
-                        new Button(){ Label = "Download", Url = "https://discord.com"}
+                        new Button(){ Label = "Download", Url = "https://github.com/AbreuHD/VLCVideoScrapper"}
                     },
                 };
                 client.SetPresence(richPresence);
