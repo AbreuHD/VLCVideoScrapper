@@ -10,6 +10,7 @@
     <DelaySign>False</DelaySign>
     <AssemblyName>VideoScrapper</AssemblyName>
     <ApplicationIcon>icono.ico</ApplicationIcon>
+	<EnableWindowsTargeting>true</EnableWindowsTargeting>
   </PropertyGroup>
 
   <ItemGroup>
