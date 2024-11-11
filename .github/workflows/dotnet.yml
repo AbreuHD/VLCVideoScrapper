@@ -22,7 +22,7 @@ jobs:
       run: dotnet restore
 
     - name: Publish WinForms Project
-      run: dotnet publish --configuration Release --self-contained --output ./publish
+      run: dotnet publish --configuration Release --self-contained --output ./publish --no-restore
 
     - name: Create GitHub Release
       id: create_release
